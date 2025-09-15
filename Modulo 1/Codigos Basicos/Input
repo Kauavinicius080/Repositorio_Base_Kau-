@@ -1,0 +1,3 @@
+nome =  input("Qual e seu nome?")
+idade = input("quantos anos voce tem?")
+
