@@ -1,0 +1,10 @@
+# Valor em reais que você quer converter
+valor_reais = float(input("Digite o valor em reais: "))
+
+# Taxa de câmbio atual (exemplo: 1 dólar = 5.25 reais)
+taxa_cambio = 5.25
+
+# Conversão
+valor_dolar = valor_reais / taxa_cambio
+
+print(f"R$ {valor_reais:.2f} equivalem a US$ {valor_dolar:.2f}")
