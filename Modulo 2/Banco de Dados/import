@@ -1,0 +1,5 @@
+import csv
+
+minha_lista = open("dado.csv") arquivo = csv.DictReader(minha_lista)
+
+for pai_do_ezequiel in arquivo: if pai_do_ezequiel["Marca"] == "Ford": print(pai_do_ezequiel)
