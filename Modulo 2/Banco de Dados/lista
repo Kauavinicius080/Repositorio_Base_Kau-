@@ -1,0 +1,5 @@
+import bs4,requests
+
+minha_lista = open("dado.csv") arquivo = csv.DictReader(minha_lista)
+
+for pai_do_ezequiel in arquivo: if pai_do_ezequiel["produto"] == "arroz": print(pai_do_ezequiel)
